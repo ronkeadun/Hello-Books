@@ -1,42 +1,46 @@
 <!doctype html>
 <html>
   <head>
-    <title>Home</title>
+    <title>SIGN IN</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <div class="header">
-      <div class="nameLogo">
-        <p>HELLO BOOKS</p>
-      </div> 
-    </div>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Hello</span>Books</h1>
+        </div>
+      </div>
+    </header>
 
     <div class="supporting">
       <div class="container">
 
         <div class="col">
           <div id= "container" style ="width : 400px; margin :auto; border: auto; border-style : solid; padding: 10px">
-            <h2>SIGN IN</h2>
-
-            <input type="text" id="signin-email" class="text-input email-input" name="session[username_or_email]" autocomplete="on" placeholder="Email or Username"  />
+            
+            <form action = "" method = "">
+              <h2>SIGN IN</h2>
+              <input type="text" id="signin-email" class="text-input email-input" name="session[username_or_email]" autocomplete="on" placeholder="Email or Username"/>
                      
-            <br/><br/>
+              <br/><br/>
                   
-            <input type="password" id="signin-password" class="text-input flex-table-input" name="session[password]" placeholder="Password"/>
+              <input type="password" id="signin-password" class="text-input flex-table-input" name="session[password]" placeholder="Password"/>
                     
-            <br/><br/>
+              <br/><br/>
 
-            <label class="t1-label remember">
-              <input type="checkbox" value="1" name="remember_me" checked="checked">
-              <span>Remember me</span>
-            </label>
+              <label class="t1-label remember">
+                <input type="checkbox" value="1" name="remember_me" checked="checked">
+                <span>Remember me</span>
+              </label>
 
-            <button type="submit" name="login" onclick = "loginfunc()"> Log in </button>
+              <button type="submit" name="login" onclick = "loginfunc()"> Log in </button>
                   
-            <span class="separator">&middot;</span>
-            <div><a class="forgot" href="sign_up.html">Register</a></div>
-            <a class="forgot" href="pass_reset.html">Forgot password?</a>
-
+              <span class="separator">&middot;</span>
+              <div><a class="forgot" href="sign_up.html">Register</a></div>
+              <a class="forgot" href="pass_reset.html">Forgot password?</a>
+            </form>
           </div>
         </div>
         
@@ -50,10 +54,8 @@
   <div class="clearfix"></div>
   <!--</div>-->
 
-  <div class="footer">
-    <div class="container">
-      <p> </p>
-    </div>
-  </div>
+    <footer>
+      <p>Copyright &copy; 2017</p>
+    </footer>
   </body>
 </html>
