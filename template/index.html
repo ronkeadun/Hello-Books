@@ -1,35 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>SIGN IN</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Hello</span>Books</h1>
-        </div>
-      </div>
-    </header>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Hello</span>Books</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">HOME</a></li>
+					<li><a href="sign_in.html">SIGN IN</a></li>
+					<li><a href="admin.html">ADMIN DASHBOARD</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-    <div class="supporting">
-      <div class="container">
+	<section id="showcase">
+		<div class="container">
+			<h1>BOOK CATALOG</h1>
+			<p>You can select your books here</p>
+		</div>
+	</section>
 
-        <div class="col">
-          <div id= "container" style ="width : 400px; margin :auto; border: auto; border-style : solid; padding: 10px">
-            
-            <form action = "" method = "">
-              <h2>SIGN IN</h2>
-              <input type="text" id="signin-email" class="text-input email-input" name="session[username_or_email]" autocomplete="on" placeholder="Email or Username"/>
-                     
-              <br/><br/>
-                  
-              <input type="password" id="signin-password" class="text-input flex-table-input" name="session[password]" placeholder="Password"/>
-                    
-              <br/><br/>
+	<section id="newsletter">
+		<div class="container">
+			<h1>SEARCH BOOKS FROM CATALOG</h1>
+			<form action="">
+				<input type="text" placeholder="Search">
+				<button type="submit" class="button-1">SUBMIT</button>
+			</form>
+		</div>
+		<div class="clearance"></div>
+	</section>
 
+<<<<<<< HEAD
               <label class="t1-label remember">
                 <input type="checkbox" value="1" name="remember_me" checked="checked">
                 <span>Remember me</span>
@@ -59,3 +70,42 @@
     </footer>
   </body>
 </html>
+=======
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<img src="images/image2.jpg">
+				<h3>SCIENCES</h3>
+			</div>
+			<div class="box">
+				<img src="images/image2.jpg">
+				<h3>ARTS</h3>
+			</div>
+			<div class="box">
+				<img src="images/image3.jpg">
+				<h3>SOCIALS</h3>
+			</div>
+		</div>
+		<div class="container">
+			<div class="box">
+				<img src="images/image5.jpg">
+				<h3>COMMERCE</h3>
+			</div>
+			<div class="box">
+				<img src="images/image3.jpg">
+				<h3>EDUCATION</h3>
+			</div>
+			<div class="box">
+				<img src="images/image5.jpg">
+				<h3>BUSINESS</h3>
+			</div>
+		</div>
+	</section>
+	<div class="clearance"></div>
+	
+	<footer>
+		<p>Copyright &copy; 2017</p>
+	</footer>
+</body>
+</html>
+>>>>>>> 65f7ef6d267831f95b2e59a07b434603053e2ae7
