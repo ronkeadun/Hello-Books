@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ronke",
+    "password": "3377",
+    "database": "books",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "ronke",
+    "password": "3377",
+    "database": "books",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ronke",
+    "password": "3377",
+    "database": "books",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

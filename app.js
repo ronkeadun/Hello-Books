@@ -3,7 +3,9 @@ const logger = require('morgan');
 const bodyParser = require('body-parser');
 
 const index = require('./server/route');
+//const db = require('./db');
 const path = require('path');
+
 
 
 // Set up the express app
